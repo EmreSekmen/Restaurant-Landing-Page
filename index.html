@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Landing Page</title>
+    <link href="/CSS/stlyecss.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <a href="#" class="logo">Luxe Restaurant</a>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#reservation" class="nav-button">
+                Book a Table
+            </a>
+
+
+        </nav>
+
+
+        <section class="Home" id="home">
+
+            <h1>Luxe Restaurant</h1>
+            <p>Experience fine dining with carefully crafted dishes, premium ingredients, and an unforgettable
+                atmosphere</p>
+
+
+            <div class="home-buttons">
+
+                <a href="#reservation">Reserve a Table</a>
+
+                <a href="#menu">View Menu</a>
+
+            </div>
+
+        </section>
+
+
+        <section class="menu" id="menu">
+
+            <h2>Our Menu</h2>
+
+            <div class="menu-container">
+
+                <article class="menu-card">
+
+                    <h1>Grilled Ribeye Steak</h1>
+                    <img src="/photos/menu1.jpg">
+
+                    <span>$29.90</span>
+
+                </article>
+
+                <article class="menu-card">
+
+                    <h1>Truffle Pasta</h1>
+                    <img src="/photos/menu2.jpg">
+
+                    <span>$21.90</span>
+
+                </article>
+
+                <article class="menu-card">
+
+                    <h1>Grilled Salmon</h1>
+
+                    <img src="/photos/menu3.jpg">
+
+                    <span>$24.90</span>
+
+                </article>
+
+                <article class="menu-card">
+
+                    <h1>Chocolate Lava Cake</h1>
+
+                    <img src="/photos/menu4.jpg">
+
+                    <span>$9.90</span>
+
+                </article>
+
+
+                <article class="menu-card">
+
+                    <h1>Classic Tiramisu</h1>
+
+                    <img src="/photos/menu5.jpg">
+
+                    <span>$8.90</span>
+
+                </article>
+
+                <article class="menu-card">
+
+                    <h1>New York Cheesecake</h1>
+
+                    <img src="/photos/menu6.jpg">
+
+                    <span>$8.50</span>
+
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="featured" id="featured">
+
+
+            <h4>Featured</h4>
+
+            <div class="featured-container">
+
+
+
+
+                <img id="featured-image" src="/photos/steakjpg.jpg" alt="Featured Dish">
+
+                <h3 id="featured-title">Grilled Ribeye Steak</h3>
+
+                <p id="featured-description">
+                    Premium dry-aged beef grilled to perfection with seasonal vegetables.
+                </p>
+
+
+
+            </div>
+
+
+            <a href="#reservation" class="featured-button">
+                Reserve a Table
+            </a>
+
+        </section>
+
+
+
+
+        <section class="Reviews">
+
+            <h6>Reviews</h6>
+
+            <div class="review-cards">
+
+                <article class="review-card">
+                    <h5>Sarah M.</h5>
+                    <p>Reasonable prices and delicious food—I will definitely come back.</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </article>
+
+                <aritcle class="review-card">
+                    <h5>Ellie M.</h5>
+                    <p>Professional waiters and lovely food, though the ventilation was a bit poor.</p>
+                    <p>⭐⭐⭐⭐</p>
+                </aritcle>
+
+                <article class="review-card">
+                    <h5>Burak A.</h5>
+                    <p>It’s not that great considering the price; it’s overrated.</p>
+                    <p>⭐⭐</p>
+                </article>
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+        <section class="Gallery">
+
+            <h1>Our Gallery</h1>
+
+            <ul>
+                <img src="/photos/gallery1.jpg">
+                <img src="/photos/gallery2.jpg">
+                <img src="/photos/gallery3.jpg">
+                <img src="/photos/gallery4.jpg">
+                <img src="/photos/gallery5.jpg">
+                <img src="/photos/gallery6.jpg">
+            </ul>
+
+        </section>
+
+
+        <section class="reservation" id="reservation">
+
+
+            <div class="reservation-content">
+
+                <div class="reservation-text">
+                    <p class="section-label">Reservation</p>
+                    <h2>Book Your Table</h2>
+
+                    <p>
+                        Reserve your table and enjoy an unforgettable fine dining
+                        experience at Luxe Restaurant.
+                    </p>
+                </div>
+
+                <form class="reservation-form">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Your phone number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <select id="guests" required>
+                            <option value="">Select guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5">5 Guests</option>
+                            <option value="6">6 Guests</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" required>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Special Request</label>
+                        <textarea id="message" rows="5"
+                            placeholder="Birthday, allergies or other requests..."></textarea>
+                    </div>
+
+                    <button type="submit" class="reservation-button">
+                        Book a Table
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="contact" id="contact">
+
+            <div class="contact-header">
+
+                <p>Contact</p>
+
+                <h2>Visit Luxe Restaurant</h2>
+
+            </div>
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+
+                    <div class="info-card">
+                        📍
+                        <h3>Address</h3>
+                        <p>Alexanderplatz 12, Berlin</p>
+                    </div>
+
+                    <div class="info-card">
+                        ☎
+                        <h3>Phone</h3>
+                        <p>+49 123 456 789</p>
+                    </div>
+
+                    <div class="info-card">
+                        ✉
+                        <h3>Email</h3>
+                        <p>info@luxerestaurant.com</p>
+                    </div>
+
+                    <div class="info-card">
+                        🕒
+                        <h3>Opening Hours</h3>
+                        <p>Mon-Sun</p>
+                        <p>11:00 - 23:00</p>
+                    </div>
+
+                </div>
+
+                <div class="map">
+
+                    Google Maps
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </header>
+
+
+
+    <script src="/CSS/style.js"></script>
+</body>
+
+</html>
