@@ -22,9 +22,9 @@ The website features a clean design, an interactive featured dishes slider, cust
 
 ## 📸 Preview
 
-!(Preview)[screenshots/number1]
-!(Preview)[screenshots/number2]
-(Preview)[screenshots/number3]
+![Preview](screenshots/number1)
+![Preview](screenshots/number2)
+![Preview](screenshots/number3)
 
 ---
 
